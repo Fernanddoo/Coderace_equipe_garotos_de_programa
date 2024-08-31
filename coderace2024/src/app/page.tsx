@@ -3,17 +3,15 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useAuthContext } from "@/context/AuthContext";
 
 export default function Home() {
+  const { userAuth, logout } = useAuthContext();
   const router = useRouter();
   const [showRecommendations, setShowRecommendations] = useState(false);
   const [showSubscriptions, setShowSubscriptions] = useState(false);
 
   // Simular um estado de autenticação do usuário
-  const userAuth = true; // Substitua por lógica real
-  const logout = () => {
-    // Lógica de logout
-  };
 
   if (!userAuth) {
     router.push("/signIn");

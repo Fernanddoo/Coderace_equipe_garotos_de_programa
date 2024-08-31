@@ -15,6 +15,7 @@ export default function Home() {
           <a href="#home" className="text-white py-2 px-4 rounded border-2 border-transparent hover:bg-neon hover:border-neon transition">Portal</a>
           <a href="#nossos-apps" className="text-white py-2 px-4 rounded border-2 border-transparent hover:bg-neon hover:border-neon transition">Nossos Apps</a>
           <a href="#nossa-loja" className="text-white py-2 px-4 rounded border-2 border-transparent hover:bg-neon hover:border-neon transition">Nossa Loja</a>
+          <a href="/" className="text-white py-2 px-4 rounded border-2 border-transparent hover:bg-neon hover:border-neon transition">Página do usuário</a>
         </nav>
       </header>
 
