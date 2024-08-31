@@ -20,6 +20,14 @@ const config: Config = {
         'custom-4': '#646273',
         'custom-5': '#158A8D',
         'custom-6': '#272727',
+        neon: '#00a97f',
+
+      },
+      borderColor: {
+        neon: '#00a97f',
+      },
+      backgroundColor: {
+        neon: '#00a97f',
       },
     },
   },
